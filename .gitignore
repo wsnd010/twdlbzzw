@@ -1,0 +1,38 @@
+# ---- Secrets (never commit) ----
+.env
+.env.*
+*.local
+secrets.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ---- Runtime data (private: photos / generated charts) ----
+uploads/*
+!uploads/.gitkeep
+output/
+
+# ---- IDE / Editor ----
+.idea/
+.vscode/
+*.swp
+
+# ---- OS ----
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ---- Node (miniprogram) ----
+node_modules/
